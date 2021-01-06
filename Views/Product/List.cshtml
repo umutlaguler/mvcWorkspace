@@ -11,18 +11,23 @@
 <body>
     <h3>@Model.Category.Name</h3>
     <h3>@Model.Category.Description</h3>
+
     <hr>
-<div>
-    <p>@Model.Products[0].Name</p>
-    <p>@Model.Products[0].Price</p>
-    <p>@Model.Products[0].Description</p>
-</div>
+    
+ <ul>
+    @foreach (var product in Model.Products)
+    {
+        <li>
+            <div>
+                <p>@product.Name</p>
+                <p>@product.Price</p>
+                <p>@product.Description</p>
+            </div>
+        </li>
+    }
+ </ul>
+
 <hr>
-<div>
-    <p>@Model.Products[1].Name</p>
-    <p>@Model.Products[1].Price</p>
-    <p>@Model.Products[1].Description</p>
-</div>
 
 </body>
 </html>
