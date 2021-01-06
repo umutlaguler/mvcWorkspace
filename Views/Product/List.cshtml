@@ -1,31 +1,46 @@
 @model ProductViewModel
-
+@{
+    var popularClass = Model.Products.Count>3? "popular":"";
+}
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>product</title>
+    <title>Product</title>
+    <style>
+    .popular{
+        color: blueviolet;
+        font-weight:700 ;
+    }
+    </style>
 </head>
+
 <body>
-    <h3>@Model.Category.Name</h3>
-    <h3>@Model.Category.Description</h3>
+    <h3 class ="@popularClass">@Model.Category.Name</h3>
+    <h3 class ="@popularClass">@Model.Category.Description</h3>
 
     <hr>
-    
- <ul>
-    @foreach (var product in Model.Products)
-    {
-        <li>
-            <div>
-                <p>@product.Name</p>
-                <p>@product.Price</p>
-                <p>@product.Description</p>
-            </div>
-        </li>
+    @if(Model.Products.Count == 0){
+            <script>
+                alert("ürün bulunmamaktadır");
+            </script>
+    }else{
+            <ul>
+                @foreach (var product in Model.Products)
+                {
+                    <li>
+                        <div>
+                            <p>@product.Name</p>
+                            <p>@product.Price</p>
+                            <p>@product.Description</p>
+                        </div>
+                    </li>
+                }
+            </ul>
     }
- </ul>
+ 
 
 <hr>
 
