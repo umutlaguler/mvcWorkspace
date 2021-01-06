@@ -15603,6 +15603,11 @@
   "RootNamespace": "shopapp.webui",
   "Documents": [
     {
+      "FilePath": "/Users/umutguler/Desktop/webProgramFile/shopapp/shopapp.webui/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/umutguler/Desktop/webProgramFile/shopapp/shopapp.webui/Views/Product/Details.cshtml",
       "TargetPath": "Views\\Product\\Details.cshtml",
       "FileKind": "mvc"
@@ -15613,8 +15618,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/umutguler/Desktop/webProgramFile/shopapp/shopapp.webui/Views/Shared/_header.cshtml",
+      "TargetPath": "Views\\Shared\\_header.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/umutguler/Desktop/webProgramFile/shopapp/shopapp.webui/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/umutguler/Desktop/webProgramFile/shopapp/shopapp.webui/Views/Shared/_navbar.cshtml",
+      "TargetPath": "Views\\Shared\\_navbar.cshtml",
       "FileKind": "mvc"
     },
     {
