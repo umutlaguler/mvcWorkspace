@@ -13550,6 +13550,23 @@
         }
       },
       {
+        "HashCode": -920669969,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CategoriesViewComponentTagHelper",
+        "AssemblyName": "shopapp.webui",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:categories"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CategoriesViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Categories"
+        }
+      },
+      {
         "HashCode": 899238057,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -15623,6 +15640,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/umutguler/Desktop/webProgramFile/shopapp/shopapp.webui/Views/Shared/_categories.cshtml",
+      "TargetPath": "Views\\Shared\\_categories.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/umutguler/Desktop/webProgramFile/shopapp/shopapp.webui/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -15640,6 +15662,11 @@
     {
       "FilePath": "/Users/umutguler/Desktop/webProgramFile/shopapp/shopapp.webui/Views/Home/About.cshtml",
       "TargetPath": "Views\\Home\\About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/umutguler/Desktop/webProgramFile/shopapp/shopapp.webui/Views/Shared/Components/Categories/Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\Categories\\Default.cshtml",
       "FileKind": "mvc"
     }
   ],

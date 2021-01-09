@@ -1,6 +1,7 @@
 @model ProductViewModel
 @{
     var popularClass = Model.Products.Count>3? "popular":"";
+    var products = Model.Products;
 }
 
 <!DOCTYPE html>
@@ -25,15 +26,18 @@
    <partial name = "_header">
    
     <main>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class ="@popularClass">@Model.Category.Name</h3>
-                    @* <h3 class ="@popularClass">@Model.Category.Description</h3> *@
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-md-3">
+                    @* Kategoriler gelecek  *@
+
+                    @await Component.InvokeAsync("Categories")
+
                 </div>
-            </div>
-    <hr>
-@if(Model.Products.Count == 0){
+                <div class = "col-md-9">
+                    @* Üürnler gelecek *@
+
+                    @if(Model.Products.Count == 0){
     <div class = "row">
         <div class="col-md-12">
             <div class="alert alert-danger">
@@ -62,6 +66,11 @@
     
         
 }
+                </div>
+            </div>
+        </div>
+    <hr>
+
  
 
 <hr>

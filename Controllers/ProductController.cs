@@ -27,11 +27,9 @@ namespace shopapp.webui.Controllers
                 new Product {Name="Iphone 6", Price=3000.0, Description="ortalama telefon" ,satıstaMı = false},
                 new Product {Name="Iphone 7", Price=3500.0, Description="ortalama üstü telefon",satıstaMı = true}
             };
-            
-            var category = new Category{Name = "Telefonlar",Description="Apple marka telefonlar "};
+           
             var productViewModel = new ProductViewModel()
             {
-                Category = category,
                 Products = products
             };
 

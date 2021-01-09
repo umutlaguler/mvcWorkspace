@@ -38,3 +38,5 @@
 /Users/umutguler/Desktop/webProgramFile/shopapp/shopapp.webui/obj/Debug/net5.0/Razor/Views/Shared/_navbar.cshtml.g.cs
 /Users/umutguler/Desktop/webProgramFile/shopapp/shopapp.webui/obj/Debug/net5.0/Razor/Views/Shared/_header.cshtml.g.cs
 /Users/umutguler/Desktop/webProgramFile/shopapp/shopapp.webui/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/umutguler/Desktop/webProgramFile/shopapp/shopapp.webui/obj/Debug/net5.0/Razor/Views/Shared/_categories.cshtml.g.cs
+/Users/umutguler/Desktop/webProgramFile/shopapp/shopapp.webui/obj/Debug/net5.0/Razor/Views/Shared/Components/Categories/Default.cshtml.g.cs

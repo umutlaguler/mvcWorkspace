@@ -1,15 +1,81 @@
+@model ProductViewModel
+@{
+    var popularClass = Model.Products.Count>3? "popular":"";
+    var products = Model.Products;  
+}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ındex</title>
+    <title>Anasayfa</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+    .popular{
+        color: blueviolet;
+        font-weight:700 ;
+    }
+    </style>
 </head>
+
 <body>
-      @await Html.PartialAsync("_navbar")
-      @await Html.PartialAsync("_header")
+   @* @await Html.PartialAsync("_navbar") *@
+   @* @await Html.PartialAsync("_header") *@
+   <partial name = "_navbar">
+   <partial name = "_header">
+   
+    <main>
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-md-3">
+                    @* Kategoriler gelecek  *@
+                       @await Component.InvokeAsync("Categories")
+
+                </div>
+                <div class = "col-md-9">
+                    @* Üürnler gelecek *@
+
+                    @if(Model.Products.Count == 0){
+    <div class = "row">
+        <div class="col-md-12">
+            <div class="alert alert-danger">
+                Ürün Bulunmamaktadır
+            </div>
+       </div>
     </div>
+}else{
+    <div class="row">  
+        @foreach (var product in Model.Products)
+        {      
+        <div class = "col-md-3">
+            <div class = "card">
+                <img class = "card-img-top" src="https://images.hepsiburada.net/assets/Telefon/ProductDesc/iphone7-açıklama-apple-yeni.jpg" alt="photo of phone">
+                <div class = "card-body">
+                    <h5 class="card-title">@product.Name</h5>
+                    <p class="card-text">@product.Description</p>
+                    <a href="" class="btn btn-primary">İncele</a>
+                </div>
+            </div>  
+        </div> 
+        }
+    </div> 
+
+
     
-</body>
+        
+}
+                </div>
+            </div>
+        </div>
+    <hr>
+
+ 
+
+<hr>
+
+   
+    </div>
+  </main> 
+ </body>
 </html>
