@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/umutguler/Desktop/webProgramFile/shopapp/shopapp.webui/shopapp.webui.csproj",
+      "projectUniqueName": "/Users/umutguler/Desktop/webProgramFile/shopAppClone/mvcWorkspace/shopapp.webui.csproj",
       "projectName": "shopapp.webui",
-      "projectPath": "/Users/umutguler/Desktop/webProgramFile/shopapp/shopapp.webui/shopapp.webui.csproj",
+      "projectPath": "/Users/umutguler/Desktop/webProgramFile/shopAppClone/mvcWorkspace/shopapp.webui.csproj",
       "packagesPath": "/Users/umutguler/.nuget/packages/",
-      "outputPath": "/Users/umutguler/Desktop/webProgramFile/shopapp/shopapp.webui/obj/",
+      "outputPath": "/Users/umutguler/Desktop/webProgramFile/shopAppClone/mvcWorkspace/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/umutguler/.nuget/NuGet/NuGet.Config"
