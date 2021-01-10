@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/umutguler/Desktop/webProgramFile/shopAppClone/mvcWorkspace/shopapp.webui.csproj",
+  "FilePath": "/Users/umutguler/Desktop/webProgramFile/mvcWorkspace/shopapp.webui.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15620,63 +15620,63 @@
   "RootNamespace": "shopapp.webui",
   "Documents": [
     {
-      "FilePath": "/Users/umutguler/Desktop/webProgramFile/shopAppClone/mvcWorkspace/Views/Product/Details.cshtml",
-      "TargetPath": "Views\\Product\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/umutguler/Desktop/webProgramFile/shopAppClone/mvcWorkspace/Views/Product/Index.cshtml",
-      "TargetPath": "Views\\Product\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/umutguler/Desktop/webProgramFile/shopAppClone/mvcWorkspace/Views/Product/List.cshtml",
-      "TargetPath": "Views\\Product\\List.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/umutguler/Desktop/webProgramFile/shopAppClone/mvcWorkspace/Views/Shared/_header.cshtml",
-      "TargetPath": "Views\\Shared\\_header.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/umutguler/Desktop/webProgramFile/shopAppClone/mvcWorkspace/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/umutguler/Desktop/webProgramFile/shopAppClone/mvcWorkspace/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/umutguler/Desktop/webProgramFile/shopAppClone/mvcWorkspace/Views/Shared/Components/Categories/Default.cshtml",
+      "FilePath": "/Users/umutguler/Desktop/webProgramFile/mvcWorkspace/Views/Shared/Components/Categories/Default.cshtml",
       "TargetPath": "Views\\Shared\\Components\\Categories\\Default.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/umutguler/Desktop/webProgramFile/shopAppClone/mvcWorkspace/Views/Shared/_navbar.cshtml",
+      "FilePath": "/Users/umutguler/Desktop/webProgramFile/mvcWorkspace/Views/Product/Index.cshtml",
+      "TargetPath": "Views\\Product\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/umutguler/Desktop/webProgramFile/mvcWorkspace/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/umutguler/Desktop/webProgramFile/mvcWorkspace/Views/Product/Details.cshtml",
+      "TargetPath": "Views\\Product\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/umutguler/Desktop/webProgramFile/mvcWorkspace/Views/Shared/_header.cshtml",
+      "TargetPath": "Views\\Shared\\_header.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/umutguler/Desktop/webProgramFile/mvcWorkspace/Views/Shared/_navbar.cshtml",
       "TargetPath": "Views\\Shared\\_navbar.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/umutguler/Desktop/webProgramFile/shopAppClone/mvcWorkspace/Views/Shared/_categories.cshtml",
-      "TargetPath": "Views\\Shared\\_categories.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/umutguler/Desktop/webProgramFile/shopAppClone/mvcWorkspace/Views/_ViewStart.cshtml",
+      "FilePath": "/Users/umutguler/Desktop/webProgramFile/mvcWorkspace/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/umutguler/Desktop/webProgramFile/shopAppClone/mvcWorkspace/Views/Home/About.cshtml",
+      "FilePath": "/Users/umutguler/Desktop/webProgramFile/mvcWorkspace/Views/Home/About.cshtml",
       "TargetPath": "Views\\Home\\About.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/umutguler/Desktop/webProgramFile/shopAppClone/mvcWorkspace/Views/_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "/Users/umutguler/Desktop/webProgramFile/mvcWorkspace/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/umutguler/Desktop/webProgramFile/mvcWorkspace/Views/Shared/_categories.cshtml",
+      "TargetPath": "Views\\Shared\\_categories.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/umutguler/Desktop/webProgramFile/mvcWorkspace/Views/Product/List.cshtml",
+      "TargetPath": "Views\\Product\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/umutguler/Desktop/webProgramFile/mvcWorkspace/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     }
   ],

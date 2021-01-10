@@ -9,19 +9,42 @@
 </head>
 
 <body>
+
+@RenderSection("MessageBox",false)
+
+
+
 @* navbarı getirir *@
 <partial name = "_navbar">
 @* headerı getirir *@
 <partial name = "_header">
 
-    <main>
-        <div class = "container">
+  <main>
+    <div class = "container">
+            @if(IsSectionDefined("Categories"))
+            {
+                <div class = "row">
+                    <div class = "col-md-3">
+                        @RenderSection("Categories",false)
+                    </div>
+                    <div class = "col-md-9">
+                        @RenderBody()
+                    </div>
+                </div>
+            }
+            else
+            {  
             <div class = "row">
+                <div class = "col-md-12">
                     @RenderBody()
+                </div>        
             </div>
+            }
         </div>
   </main> 
 
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+@RenderSection("Scripts", false)
 </body>
 
 </html>

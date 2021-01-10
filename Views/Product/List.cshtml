@@ -5,16 +5,10 @@
     var products = Model.Products;
 }
 
-<div class = "row">
-        <div class = "col-md-3">
-            @* Kategoriler gelecek  *@
-                @await Component.InvokeAsync("Categories")
-
-        </div>
-        <div class = "col-md-9">
-            @* Üürnler gelecek *@
-
-            @if(Model.Products.Count == 0){
+@section Categories{
+    @await Component.InvokeAsync("Categories")
+   }
+@if(Model.Products.Count == 0){
     <div class = "row">
         <div class="col-md-12">
             <div class="alert alert-danger">
@@ -38,5 +32,4 @@
         </div> 
         }
     </div> 
-
 }
